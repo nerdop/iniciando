@@ -1,0 +1,14 @@
+{
+  "name": "miserver",
+  "version": "1.0.0",
+  "description": "mi primer servidor web de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nerdo pulido",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

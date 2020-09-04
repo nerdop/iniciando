@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primer servidor web</title>
+
+  <script type="text/javascript">
+ 
+
+ function acer_click()
+{
+    var datos1;
+        datos1={
+            "nombre":nombre1.value,
+             "edad":edad1.value
+        };
+
+    document.getElementById('contenido').innerHTML = datos1.nombre+ " "+datos1.edad;
+    alert(nombre1.value + ' '+ edad1.value);
+    }
+    </script>
+
+</head>
+<body>
+  
+  
+        <h1>HOLA, mi primer servidor web</h1>
+
+
+<form action="">
+	  
+    <fieldset id="fiel1" Class="fielSet"><legend Class="legen1"> Ingrese la información </legend>
+      <tr>
+        
+          <td><label Class="txtlabels" >Nombre:</label></td>
+                <input type="text" id="nombre1">
+      <br>
+                <br/>
+        <td><label Class="txtlabels" >Edad:</label></td>
+                <input type="text" id="edad1">
+
+              <br><br/>    
+              <input type="button" value="Aceptar..." onclick= "acer_click()";>
+       
+                
+      </tr>
+     
+    
+    </fieldset>
+<br></br>
+  
+<div id="contenido">
+
+</div>
+    
+</section>
+
+        
+        </form>
+              
+</body>
+
+
+</html>
